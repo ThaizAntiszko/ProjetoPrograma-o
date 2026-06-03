@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
-.cabecalho {
-    padding: 15px 25px;
-}
+.cabecalho { 
+  background-color: #7e3e1c; 
+  padding: 15px 25px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
 
 .cartao {
     width: 260px;
@@ -15,3 +18,25 @@
 .cartao-imagem {
     width: 100%;
 }
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+  background-color: #f5f2f2; 
+} 
+main { 
+  flex: 1; 
+} 
+.cabecalho-link {
+    color: #fff;
+    text-decoration: none;
+}
+h1 { 
+  color: #fff; 
+  font-size: 24px; 
+} 
+footer { 
+  background-color: #7e3e1c; 
+  padding: 15px 25px; 
+  color: #fff; 
+} 
